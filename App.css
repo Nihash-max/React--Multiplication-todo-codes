@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Calculator Section ===== */
+.calculator-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.calculator-section h2{
+  margin-bottom: 5px;
+}
+
+/* Calculator box */
+.calculator-section > div {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  height: 400px;
+}
+
+/* Calculator buttons */
+.calculator-section button {
+  margin: 6px;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #667eea;
+  color: white;
+}
+
+.calculator-section button:hover {
+  background: #5a67d8;
+}
+
+/* ===== Todo Section ===== */
+.todo-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+/* Todo box */
+.todo-section > div {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Todo input */
+.todo-section input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Todo button */
+.todo-section button {
+  padding: 8px 12px;
+  border: none;
+  background: #11998e;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.todo-section button:hover {
+  background: #0e7f74;
+}
+
+/* Todo list */
+.todo-section ul {
+  margin-top: 10px;
+}
+
+.todo-section li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
